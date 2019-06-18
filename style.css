@@ -1,0 +1,107 @@
+.card{
+	background-color: black;
+}
+
+.card-body{
+	opacity: 0.7;
+}
+.card-body:hover{
+	opacity: 1;
+}
+.gamepage-carousel-img{
+	height: 500px;
+}
+.heading{
+	color: white;
+	text-align: center;
+}
+.card-img{
+	height: 212px;
+
+}
+.card-title{
+	color: white;
+}
+.card-text{
+	color: white;
+}
+.game-text{
+	color: #E3DCE2;
+}
+
+.containers {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 1;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+.containers:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+
+body { 
+    /*background-image: url('images/back.jpeg');*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    
+    /*background-size: 1440px 750px;*/
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/edited.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
